@@ -1,21 +1,4 @@
-const members = [
-    { id: 1, name: "Rohan Sharma", role: "President", avatar: "" },
-    { id: 2, name: "Priya Patel", role: "Vice President", avatar: "" },
-    { id: 3, name: "Amit Kumar", role: "Secretary", avatar: "" },
-    { id: 4, name: "Neha Singh", role: "Treasurer", avatar: "" },
-    { id: 5, name: "Vikram Joshi", role: "Tech Lead", avatar: "" },
-    { id: 6, name: "Sneha Gupta", role: "Design Lead", avatar: "" },
-    { id: 7, name: "Rahul Verma", role: "Marketing Head", avatar: "" },
-    { id: 8, name: "Anjali Desai", role: "Event Coordinator", avatar: "" },
-    { id: 9, name: "Karan Malhotra", role: "Content Creator", avatar: "" },
-    { id: 10, name: "Deepika Reddy", role: "Social Media Manager", avatar: "" },
-    { id: 11, name: "Arjun Nair", role: "Web Developer", avatar: "" },
-    { id: 12, name: "Meera Iyer", role: "App Developer", avatar: "" },
-    { id: 13, name: "Suresh Choudhary", role: "AI Enthusiast", avatar: "" },
-    { id: 14, name: "Pooja Mehta", role: "Graphic Designer", avatar: "" },
-    { id: 15, name: "Rajesh Singh", role: "Member", avatar: "" }
-  ];
-  
+
   // DOM Elements
   const menuToggle = document.getElementById('menuToggle');
   const navbarLinks = document.getElementById('navbarLinks');
@@ -130,11 +113,11 @@ const members = [
   
   window.addEventListener('scroll', handleScroll);
   
-  // Initialize
-  document.addEventListener('DOMContentLoaded', () => {
-    renderMembers();
-    handleScroll();
-  });
+  // // Initialize
+  // document.addEventListener('DOMContentLoaded', () => {
+  //   renderMembers();
+  //   handleScroll();
+  // });
 
 
   
