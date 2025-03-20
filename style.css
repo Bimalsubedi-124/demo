@@ -93,27 +93,23 @@
     font-size: 0.9rem;
   }
   
-  .btn-primary {
+  .btn-oracle {
     background-color: var(--club-orange);
     color: var(--white);
   }
-  .btn-primary:hover {
+  .btn-oracle:hover {
     background-color: var(--club-orange-dark);
   }
-  .btn-primary a{
-    text-decoration: none;
-    color: var(--white);
-  }
   
-  .btn-outline { 
+  .btn-java { 
     background-color: var(--club-orange);
   }
-  .btn-outline a{
+  .btn-java{
     text-decoration: none;
     color: var(--white);
   }
   
-  .btn-outline:hover {
+  .btn-java:hover {
     background-color: var(--club-orange-dark);
   }
   
